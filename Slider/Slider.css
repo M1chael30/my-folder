@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+/* ===== General ===== */
+*
+{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+ min-height: 100vh;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: #f2f2f2;
+}
+/* ===== General ===== */
+.cards .card .content .img
+{
+ height: 130px;
+ width: 130px;
+ margin-bottom: 14px;
+}
+
+.cards .card .content
+{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+
+.card .content .img img
+{
+ height: 100%;
+ width: 100%;
+ object-fit: cover;
+ border-radius: 50%;
+}
+
+.card .content .details .name
+{
+ font-size: 20px;
+ font-weight: 500;
+}
+
+.card .content .details .job
+{
+ font-size: 20px;
+ color: #ff676d;
+}
+
+.card .content .media-icons a
+{
+ height: 35px;
+ width: 35px;
+ color: #fff;
+ background-color: #ff676d;
+ margin: 0 4px;
+ border-radius: 50%;
+ text-align: center;
+ line-height: 33px;
+ border: 2px solid transparent;
+ font-size: 14px;
+ transition: all 0.4s ease;
+}
+
+.card .content .media-icons a:hover
+{
+ border-color: #ff676d;
+ color: #ff676d;
+ background-color: #fff;
+}
+
+.card .content .media-icons
+{
+ display: flex;
+ margin-top: 10px;
+}

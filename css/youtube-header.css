@@ -1,0 +1,124 @@
+.header{
+   height: 55px;
+
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+   z-index: 600;
+   
+   background: white;
+
+   border-bottom: 1px solid rgb(211, 210, 210);
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+
+.left-section{
+   flex-shrink: 0;
+   width: 90px;
+   margin-right: 80px;
+
+   display: flex;
+   align-items: center;
+}
+.hamburger-menu{
+   height: 24px;
+   margin-left: 24px;
+   margin-right: 24px;
+   cursor: pointer;
+}
+.youtube-logo{
+   margin-right: 70px;
+   height: 30px;
+   cursor: pointer;
+}
+
+.middle-section{
+   flex: 1;
+   margin-left: 70px;
+   margin-right: 35px;
+   max-width: 500px;
+   display: flex;
+   align-items: center;
+}
+.search-icon{
+   height: 25px;
+   margin-top: 4px;
+}
+.voice-search-button{
+   height: 40px;
+   width: 40px;
+   cursor: pointer;
+}
+.search-bar{
+   outline: none;
+   width: 0;
+   flex: 1;
+   height: 34px;
+   padding-left: 10px;
+   font-size: 16px;
+   border-width: 1px;
+   border-style: solid;
+   border-color: rgb(211, 210, 210);
+
+   border-radius: 2px;
+   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+.search-bar::placeholder{
+   font-family: Robot, Arial;
+   font-size: 16px;
+}
+.search-button{
+   height: 37px;
+   width: 66px;
+   background-color: rgb(240,240,240);
+   border-width: 1px;
+   border-style: solid;
+   border-color: rgb(211, 210, 210);
+   margin-left: -1px;
+   margin-right: 10px;
+   cursor: pointer;
+}
+.voice-search-button{
+   height: 40px;
+   width: 40px;
+   border-radius: 20px;
+   border: none;
+   background-color: rgb(245, 247, 246);
+   cursor: pointer;
+}
+
+.voice-search-icon{
+   height: 25px;
+   padding-left: 2px;
+   padding-right: 2px;
+   cursor: pointer;
+}
+.right-section{
+   width: 180px; 
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-right: 40px;
+   flex-shrink: 0;
+}
+.upload-icon{
+   height: 24px;
+   cursor: pointer;
+}
+.youtube-apps-icon{
+   height: 24px;
+   cursor: pointer;
+}
+.notifications-icon{
+   height: 24px;
+   cursor: pointer;
+}
+.profilepic-icon{
+   height: 32px;
+   border-radius: 16px;
+   cursor: pointer;
+}

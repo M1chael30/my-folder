@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  font-family: 'Poppins',sans-serif;
+}
+div{
+  margin: 2rem auto;
+  background-image: linear-gradient(to bottom , rgba(141, 255, 217, 0.7), rgba(46, 167, 127, 0.59));
+  width: 60%;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  padding: 2em 1em;
+}
+h1{
+  font-size: 3rem;
+}
+p{
+  font-size: 2rem;
+}
+.btn{
+  margin-top: 1em;
+  padding: .5em;
+  width: 50%;
+  background-color: rgb(13, 178, 178);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  font-family: 'Poppins'sans-serif;
+  cursor: pointer;
+}
+.save-btn {
+  background: rgb(23, 221, 23);
+}
+
+.previous-entries{
+  margin-top: 2em;
+  font-size: 0.90rem;
+}

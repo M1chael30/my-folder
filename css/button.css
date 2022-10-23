@@ -1,0 +1,107 @@
+
+.subscribe-button{
+    color: rgb(255, 255, 255);
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-size-adjust: none;
+    font-stretch: 100%;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: normal;
+    border: 0;
+    background-color: #FF0000;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    transition: 0.15s;
+    margin-left: 30px;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+.subscribe-button:hover{
+    opacity: 0.5;
+}
+.subscribe-button:active{
+    opacity: 0.2;
+}
+
+.follow-button{
+    transition: 0.15s;
+    margin-left: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 6px;
+    border-width: 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 36px;
+    line-height: 16.08px;
+    letter-spacing: 1px;
+    width: 100px;
+    font-stretch: 100%;
+    background-color: rgb(228,230,235);
+    color: rgb(28,30,33);
+    font-size: 15px;
+    font-family: "Segoe UI Historic","Segoe UI",Helvetica,Arial, sans-serif;
+}
+.follow-button:hover{    
+    color: rgb(0, 0, 0);
+    background-color: rgb(183, 186, 193);
+}
+.follow-button:active{
+    color: rgb(183, 186, 193);
+    background-color:rgb(233, 233, 233);
+}
+.join{
+    color:  rgb(109, 160, 255);
+    background-color:  rgb(228,230,235);
+    letter-spacing: 2px;
+    margin-left: 20px;
+    border-color: rgb(109, 160, 255);
+    border-style: solid;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 2px;
+    width: 100px;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 37px;
+    vertical-align: top;
+    transition: 0.15s;
+    font-family:Roboto, Arial, sans-serif;
+}
+.join:hover{
+    color: rgb(228,230,235);
+    background-color: rgb(109, 160, 255);
+}
+.join:active{
+    background-color: rgb(175, 203, 255);
+}
+.b{
+    font-weight: 500;
+    color: rgba(11, 128, 217, 0.848);
+    cursor: pointer;
+}
+.b:hover{
+    text-decoration: underline;
+}
+.b:active{
+    color: rgb(175, 203, 255);
+}
+.div{
+    font-family: Roboto, Arial, sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: -15px;
+}
+
+.Pindutan{
+    display: flex;
+    align-items: center;
+}
